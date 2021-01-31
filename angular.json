@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "APICaling"
+    }
+  },
+  "defaultProject": "APICaling",
+  "cli": {
+    "analytics": "4b0e0d03-5627-4c36-9402-f2995d8e89cb"
+  }
 }
