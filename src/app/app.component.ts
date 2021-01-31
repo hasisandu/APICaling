@@ -18,16 +18,12 @@ export class AppComponent {
 
   loadAllData() {
     // ----------------
-
     this.commentService.getAllComments().subscribe(resp => {
       this.dataArray = resp;
     }, error => {
       console.log(error);
     });
-
     // ----------------
-
-
     // GET---> GET DATA FRM A SERVER (headers)
     // POST ---> SAVE DATA (SEND DATA TO THE SERVER) (body)
     // PUT ---> UPDATE DATA (body)
