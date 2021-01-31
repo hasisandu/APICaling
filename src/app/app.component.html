@@ -4,13 +4,13 @@
   <br>
   <br>
 
-  <div class="main-wrap">
-    <small class="txt-name">Nimal</small>
+  <div style="margin-bottom: 10px;"
+       class="main-wrap" *ngFor="let tempComment of dataArray">
+    <small class="txt-name">{{tempComment.name}}</small>
     <br>
-    <small class="txt-email">Nimal@gmail.com</small>
+    <small class="txt-email">{{tempComment.email}}</small>
     <p class="txt-comment">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias deleniti facere id necessitatibus officia ratione
-      reprehenderit sapiente sed sequi ullam!
+      {{tempComment.body}}
     </p>
   </div>
 
